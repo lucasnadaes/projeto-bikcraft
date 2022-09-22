@@ -81,7 +81,7 @@
     .header a::after {
         display: none;
     }
-
+}
 @media (max-width: 600px) {
     .header-menu {
         gap: 12px;
@@ -90,5 +90,4 @@
         padding: 8px 12px;
         font-size: 14px;
     }
-}
 }
