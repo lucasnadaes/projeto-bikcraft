@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+:root{
+    --c01: #f7f7f7;
+    --c02: #ededed;
+    --c03: #dedede;
+    --c04: #cccccc;
+    --c05: #b3b3b3;
+    --c06: #9c9c9c;
+    --c07: #737373;
+    --c08: #595959;
+    --c09: #404040;
+    --c10: #2e2e2e;
+    --c11: #121212;
+    --c12: #000000;
+    --p01: #ffbb00;
+    --p02: #e5a40b;
+    --p03: #a66f00;
+    --p04: #664400;
+    --p05: #332200;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-bg{
+    background-color: var(--c12);
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.header-menu a{
+    color: var(--c01);
+    font-size: 18px;
+    padding: 16px 0px;
+    display: inline-block;
+    position: relative;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+.header-menu a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: var(--c01);
+    transition: 0.3s;
+    position: absolute;
+}
+.header-menu a:hover::after {
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .header-menu {
+        gap: 20px;
+    }
+    .header-menu a {
+        background: var(--c11);
+        padding: 12px 16px;
+        border-radius: 5px;
+    }
+    .header-menu a:hover{
+        background: var(--c10);
+    }
+    .header a::after {
+        display: none;
+    }
+
+@media (max-width: 600px) {
+    .header-menu {
+        gap: 12px;
+    }
+    .header-menu a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
