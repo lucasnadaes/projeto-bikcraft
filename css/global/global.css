@@ -4,9 +4,6 @@
     list-style: none;
     text-decoration: none;
 }
-body {
-    padding-bottom: 600px;
-}
 img{
     max-width: 100%;
     display: block;
@@ -14,4 +11,3 @@ img{
 img[src$=".jpg"] {
     border-radius: 5px;
 }
-
