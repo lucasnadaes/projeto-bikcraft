@@ -5,8 +5,8 @@
     padding-top: 60px;
     padding-bottom: 80px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 40px;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 .seguros h2 {
@@ -16,6 +16,7 @@
 .seguros-item {
     background-color: var(--c12);
     padding: 32px 32px 32px 60px;
+    border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr auto;
 }

@@ -29,7 +29,22 @@
 .button.secundario:hover {
     background: var(--c09);
 }
-
+.button.seta {
+    display: flex;
+    align-items: center;
+}
+.button.seta::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url("../../img/icones/seta.svg");
+    transition: transform 0.2s;
+}
+.button.seta:hover::after {
+    transform: translateX(4px);
+}
 .link {
     display: inline-block;
     color: var(--p01);
@@ -74,8 +89,8 @@
         padding-bottom: 40px;
     }
     .titulo p {
-         font-size: 1rem;
-         text-transform: lowercase;
-         font-weight: 400;
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
     }
 }
