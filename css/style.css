@@ -7,6 +7,7 @@
 @import "utilidades/componentes.css";
 @import "bicicletas/bicicletas-lista.css";
 @import "bicicletas/bicicletas.css";
+@import "bicicleta/bicicleta.css";
 @import "home/introducao.css";
 @import "home/tecnologia.css";
 @import "home/parceiros.css";
@@ -14,4 +15,5 @@
 @import "seguros/seguros.css";
 @import "seguros/vantagens.css";
 @import "seguros/perguntas.css";
+@import "bicicleta/seguro.css";
 @import "termos/termos.css";
