@@ -11,3 +11,6 @@ img{
 img[src$=".jpg"] {
     border-radius: 5px;
 }
+a{
+    color: inherit;
+}

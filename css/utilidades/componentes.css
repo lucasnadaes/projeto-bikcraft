@@ -17,6 +17,8 @@
     text-transform: uppercase;
     text-decoration: none;
     max-width: max-content;
+    border: none;
+    cursor: pointer;
 }
 .button:hover {
     background:linear-gradient( var(--p01),  var(--p03));
