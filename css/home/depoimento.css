@@ -14,6 +14,7 @@
 .depoimento-conteudo {
     padding: 40px 40px 80px 80px;
     align-self: flex-end;
+    background:url('../../img/dec/bottom-right-p.svg') no-repeat bottom 50px right 20px;
 }
 .depoimento-conteudo p {
     font-family: "Merriweather", sans-serif;
@@ -39,6 +40,11 @@
     content: "”";
 }
 
+@media (min-width: 1200px) {
+    .depoimento img {
+        max-height: 520px;
+    }
+}
 @media (max-width: 800px) {
     .depoimento {
         grid-template-columns: 1fr;
